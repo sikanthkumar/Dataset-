@@ -1,4 +1,6 @@
-﻿import numpy as np
+SVM
+___________________________________
+import numpy as np
 
 import matplotlib.pyplot as plt
 
@@ -52,7 +54,8 @@ plt.show()
 
 
 
-
+BACK PROPAGATION NEURAL NETWORK
+__________________________________
 
 import numpy as np
 
@@ -132,7 +135,8 @@ plot_decision_boundary(X_test, y_test, model)
 
 plt.show()
 
-
+GMM
+_______________________________________
 
 
 
@@ -170,6 +174,10 @@ plt.title('Gaussian Mixture Model Clustering')
 
 plt.show()
 
+
+K MEANS
+_____________________
+
 from sklearn.cluster import KMeans
 
 import matplotlib.pyplot as plt
@@ -189,7 +197,8 @@ plt.scatter(centers[:, 0], centers[:, 1], c='red', marker='x', s=200, label='Clu
 plt.show()
 
 
-
+PCA
+__________________
 
 
 from sklearn.decomposition import PCA
@@ -223,7 +232,8 @@ plt.title('PCA of IRIS dataset')
 plt.show()
 
 
-
+MULTIVARIATE
+_________________________
 
 
 import numpy as np
@@ -263,7 +273,8 @@ plt.colorbar()
 plt.show()
 
 
-
+UNIVARIATE
+______________
 
 
 import numpy as np
@@ -290,7 +301,8 @@ plt.show()
 
 
 
-
+LINEAR REGRESSION
+_______________________
 
 # Import necessary libraries
 
@@ -369,7 +381,8 @@ X1,X2,Target
 5,6,1
 
 
-
+LOGISTIC REGRESSION
+___________________________
 
 
 # Import necessary libraries
@@ -449,7 +462,8 @@ plt.title('Logistic Regression - Decision Boundary')
 plt.show()
 
 
-
+DECISION TREE CLASSIFIER
+_______________________________
 
 
 from sklearn.tree import DecisionTreeClassifier
@@ -511,7 +525,8 @@ plt.title('Confusion Matrix')
 plt.show()
 
 
-
+RANDOMFOREST CLASSIFIER
+__________________________
 
 
 from sklearn.ensemble import RandomForestClassifier
@@ -574,7 +589,8 @@ plt.show()
 
 
 
-
+CNN
+_________
 
 import numpy as np
 
@@ -632,7 +648,8 @@ plt.show()
 
 
 
-
+RNN
+___________
 
 import numpy as np
 
